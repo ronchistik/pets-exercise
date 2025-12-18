@@ -39,7 +39,7 @@ export default function Dashboard() {
       </div>
 
       <div className="grid grid-4 mb-2">
-        <StatCard value={stats.totalPets} label="Total Pets" />
+        <StatCard value={stats.totalPets} label="Total Patients" />
         <StatCard value={stats.totalVaccines} label="Vaccines Recorded" />
         <StatCard value={stats.totalAllergies} label="Allergies Tracked" />
         <StatCard value={stats.severeAllergies?.length || 0} label="Severe Allergy Patients" />

@@ -147,6 +147,7 @@ export default function PetDetail() {
           <div className="detail-info">
             <h1>{pet.name}</h1>
             <div className="detail-meta">
+              <span>Patient ID: {pet.id}</span>
               <span>{pet.animal_type}</span>
               <span>Owner: {pet.owner_name}</span>
               <span>Born: {formatDate(pet.date_of_birth)} ({calculateAge(pet.date_of_birth)})</span>
