@@ -89,3 +89,4 @@ Additional features I would add:
 - Audit log table to track all record updates (who changed what and when)
 - Role based user permissions system  (view-only vs full edit access)
 - Database migrations system for version-controlled schema changes
+- Handle more robust edge cases like duplicate names, calendar date logic etc. 
