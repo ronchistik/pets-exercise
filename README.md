@@ -1,4 +1,4 @@
-# Novellia Pets
+# Pets Exercise
 
 A pet medical records management system built with TypeScript.
 
